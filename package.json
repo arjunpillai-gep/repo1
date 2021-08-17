@@ -1,0 +1,24 @@
+{
+  "name": "repo1",
+  "version": "1.0.0",
+  "description": "This is a first repo",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite":"lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arjunpillai-gep/repo1.git"
+  },
+  "author": "Arjun pillai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arjunpillai-gep/repo1/issues"
+  },
+  "homepage": "https://github.com/arjunpillai-gep/repo1#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
